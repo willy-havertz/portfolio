@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/40b82627e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span><p><strong>W</strong><b>iltord</b></p></span>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <li><button onclick="hireMe()">Hire Me</button></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Building Digital Experiences That Inspire</p>
+                <h1>Hi, I'm <span>Wiltord</span><br> Ichingwa From Kenya</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!------------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="portfolio-images/da16dce5cf119d2e2ba35682632e2584 copy.jpg" alt="m">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Passionate frontend developer who transforms ideas into seamless and vissually stunning web solution. I have honed my skills in various programming languages and frameworks, including HTML, CSS, Javascript, Python and React Js. I thrive on solving complex programs and I'm constantly seeking new challenges to expand my knowledge and improve my craft. My passion for frontend development is not only reflected in my extensive experience but alo enthusiasm and dedication I bring to each project. I have also a passion to explore my knowledge as a cyber securist specializing in ethical hacking.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Soft Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('tools')">Tools</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Communication</span><br>Communications with team members, clients, stakeholders is crucial for understanding requirements, discussing progress and solving issues</li>
+                            <li><span>Teamwork</span><br>Ability to work collaboratively within a team, sharing knowledge and supporting others</li>
+                            <li><span>Problem-Solving</span><br>Identifying issues and developing effective solutions quickly and efficiently</li>
+                            <li><span>Adaptability</span><br>Flexibility to adjust to new tools, technologies, and changing project requirements</li>
+                            <li><span>Attention To Detail</span><br>Able to ensure accuracy and quality in the development process</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Projects</span><br>I have built some cuptivating projects such as weather app, music player app and code generator app</li>
+                            <li><span>Websites</span><br>I have built a personal portfolio website</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - curent</span><br>Pursuing My Bachelors Degree in Computer Science at the University of Embu</li>
+                            <li><span>April/2024 - curent</span><br>Learning FrontEnd Web Development at Udemy and Freecode Camp</li>
+                            <li><span>April/2024 - curent</span><br>Learning python and its libraries at Udemy</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="tools">
+                        <div class="tools">
+                            <div class="tool"><p>Git and Github</p><hr class="one"></div>
+                            <div class="tool"><p>Visual Studio Code</p><hr class="two"></div>
+                            <div class="tool"><p>Webpack</p><hr class="three"></div>
+                            <div class="tool"><p>Responsive Design</p><hr class="four"></div>
+                            <div class="tool"><p>HTML and CSS</p><hr class="five"></div>
+                            <div class="tool"><p>JavaScript</p><hr class="six"></div>
+                            <div class="tool"><p>React Js</p><hr class="seven"></div>
+                            <div class="tool"><p>Python</p><hr class="eight"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!------------------------services-------->
+   
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design refers to the process of creating and planning the visual, user experience, and technical aspects of a website. It involves designing the layout, selecting appropriate colors, typography, and images, as well as ensuring that the website is user-friendly, accessible, and responsive to various devices and screen sizes</p>
+                    <a target="_blank" href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design refers to the process of creating and planning the visual, user experience, and technical aspects of an application. It involves designing the layout, selecting appropriate colors, typography, and images, as well as ensuring that the application is user-friendly, accessible, and responsive to various devices and screen sizes</p>
+                    <a target="_blank" href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+<!-----------------------portfolio-------------------->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="portfolio-images/IMG_0096.JPG" alt="m">
+                <div class="layer">
+
+                    <h3>Music Player App</h3>
+                    <p>Boredom, right. Lets listen to a nice music that will blow your mind using my music player that I have created</p>
+                    <a target="_blank" href="MusicPlayer/index.html" title="Visit the link"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolio-images/IMG_0086.JPG" alt="m">
+                <div class="layer">
+                    <h3>Calculator App</h3>
+                    <p>Are you tired of doing sums in you head? I got u, check out this awesome calculator app what it can do</p>
+                    <a target="_blank"  href="Calculator/index.html" title="Visit the link"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolio-images/20231116_104410.jpg" alt="m">
+                <div class="layer">
+                    <h3>Code Generator App</h3>
+                    <p>Take a look at an amazing QR Code generator. You can generate a QR Code of any name, even your name</p>
+                    <a target="_blank" href="#" title="Visit the link"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="portfolio-images/IMG_0104.JPG" alt="M">
+                <div class="layer">
+
+                    <h3>Questions App</h3>
+                    <p>Lets delve into the stories in the Bible by answering the questions using the Questions App</p>
+                    <a target="_blank" href="QuestionApp/index.html" title="Visit the link"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolio-images/IMG_0093.JPG" alt="m">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Oh No! it's hot, warm, cold daamn, this global warming ain't good. Check out my weather app that gives weather situations of any country</p>
+                    <a target="blank" href="WeatherApp/index.html" title="Visit the link"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+
+
+
+
+
+
+
+ <!---------------------contact-------------------->
+
+
+
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>devhavertz@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0741699435</p>
+
+                <div class="social-icons">
+                    <a href="https://x.com/Shon_havertz?t=DGv-alxsbwYQfMEAYfcZFw&s=09" rel="noopener" title="Visit my X account"><i class="fab fa-x"></i></a>
+                    <a href="https://instagram.com/willy_havertz?igsh=ZzdxMDUza3RzcMw" rel="noopener" title="Visit my Instagram account"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/wiltord-ichingwa-5927aa292" rel="noopener" title="Visit my linkedin account"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/willy-havertz" rel="noopener" title="Visit my Github account"><i class="fab fa-github"></i></a>
+                </div>
+                <a target="_blank" href="portfolio-images/IMG_0104.JPG" class="btn" class="btn-2" download>Download Image</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                    <button type="submit" class="btn btn-2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="back-top">
+        <p><strong><a href="#header">Back To Top</a></strong></p>
+    </div>
+    <div class="copyright">
+        <p>Coded with <i class="fas fa-heart"></i> by <strong>Wiltord</strong>. Visit my GitHub account <a href="https://github.com/willy-havertz" rel="noopener" title="Github">willy-havertz</a></p>
+    </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
