@@ -40,3 +40,10 @@ function closemenu(){
       })
       .catch(error => console.error('Error!', error.message))
   })
+
+ let allImages = document.querySelectorAll("img");
+allImages.forEach((value)=>{
+    value.oncontextmenu = (e)=>{
+        e.preventDefault();
+    }
+})
