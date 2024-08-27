@@ -109,6 +109,7 @@ nav ul button:hover{
 .about-col-1 img{
     width: 100%;
     border-radius: 20px;
+    pointer-events: none;
 }
 .about-col-2{
     flex-basis: 60%;
