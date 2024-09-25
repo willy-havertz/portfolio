@@ -385,6 +385,9 @@ margin-top: 50px;
     color: #ff004f;
     transform: translateY(-5px);
 }
+.work.layer{
+    height: 100%;
+}
 .btn.btn-2{
     display: inline-block;
     background: #ff004f;
