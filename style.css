@@ -385,7 +385,7 @@ margin-top: 50px;
     color: #ff004f;
     transform: translateY(-5px);
 }
-.work.layer{
+.work:hover.layer{
     height: 100%;
 }
 .btn.btn-2{
@@ -516,6 +516,9 @@ nav .fas{
         font-size: 16px;
         margin-right: 20px;
     }
+    .work.layer{
+    height: 100%;
+}
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
